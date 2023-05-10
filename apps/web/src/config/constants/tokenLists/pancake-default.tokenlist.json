@@ -1,0 +1,38 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://www.bnbtiger.top/static/picture/05.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "Bnb Tiger Inu",
+      "symbol": "BNBTiger",
+      "address": "0xAC68931B666E086E9de380CFDb0Fb5704a35dc2D",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://www.bnbtiger.top/static/picture/05.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+    }
+  ]
+}

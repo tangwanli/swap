@@ -1,0 +1,280 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "contract IERC20Metadata",
+				"name": "_stakedToken",
+				"type": "address"
+			},
+			{
+				"internalType": "contract IERC20Metadata",
+				"name": "_rewardToken",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_rewardPerBlock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_startBlock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_bonusEndBlock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_poolLimitPerUser",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_numberBlocksForUserLimit",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_admin",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "requiredAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "deployPool",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "smartChef",
+				"type": "address"
+			}
+		],
+		"name": "NewSmartChefContract",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "adminToSmartChef",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "contractAmount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_myAddress",
+				"type": "address"
+			}
+		],
+		"name": "mySmartChef",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "smartChefParam",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "sousId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "stakingToken",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "earningToken",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "contractAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "poolCategory",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "tokenPerBlock",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "endTime",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "viewSmartChef",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "sousId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "stakingToken",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "earningToken",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "poolCategory",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenPerBlock",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endTime",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct SmartChefFactory.SmartChefParam[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

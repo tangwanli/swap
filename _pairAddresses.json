@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "pairs": [
+    {
+      "chainId": "bsc",
+      "dexId": "pancakeswap",
+      "url": "https://dexscreener.com/bsc/0x9ed9e9aa51670a3210fd6078024c21ec6c1d61d9",
+      "pairAddress": "0x9Ed9E9aA51670A3210fD6078024c21ec6c1d61d9",
+      "labels": ["v2"],
+      "baseToken": { "address": "0x2dfF88A56767223A5529eA5960Da7A3F5f766406", "name": "SPACE ID", "symbol": "ID" },
+      "quoteToken": { "address": "0x55d398326f99059fF775485246999027B3197955", "name": "Tether USD", "symbol": "USDT" },
+      "priceNative": "0.8846",
+      "priceUsd": "0.8846",
+      "txns": {
+        "h1": { "buys": 55, "sells": 84 },
+        "h24": { "buys": 1089, "sells": 1659 },
+        "h6": { "buys": 436, "sells": 759 },
+        "m5": { "buys": 4, "sells": 9 }
+      },
+      "volume": { "h24": 1076358.7, "h6": 420846.78, "h1": 52646.02, "m5": 5988.6 },
+      "priceChange": { "h1": -2.97, "h24": 9.76, "h6": -4.7, "m5": -0.51 },
+      "liquidity": { "usd": 836117.92, "base": 472576, "quote": 418058 },
+      "fdv": 176927591,
+      "pairCreatedAt": 1679482913000
+    }
+  ],
+  "pair": {
+    "chainId": "bsc",
+    "dexId": "pancakeswap",
+    "url": "https://dexscreener.com/bsc/0x9ed9e9aa51670a3210fd6078024c21ec6c1d61d9",
+    "pairAddress": "0x9Ed9E9aA51670A3210fD6078024c21ec6c1d61d9",
+    "labels": ["v2"],
+    "baseToken": { "address": "0x2dfF88A56767223A5529eA5960Da7A3F5f766406", "name": "SPACE ID", "symbol": "ID" },
+    "quoteToken": { "address": "0x55d398326f99059fF775485246999027B3197955", "name": "Tether USD", "symbol": "USDT" },
+    "priceNative": "0.8846",
+    "priceUsd": "0.8846",
+    "txns": {
+      "h1": { "buys": 55, "sells": 84 },
+      "h24": { "buys": 1089, "sells": 1659 },
+      "h6": { "buys": 436, "sells": 759 },
+      "m5": { "buys": 4, "sells": 9 }
+    },
+    "volume": { "h24": 1076358.7, "h6": 420846.78, "h1": 52646.02, "m5": 5988.6 },
+    "priceChange": { "h1": -2.97, "h24": 9.76, "h6": -4.7, "m5": -0.51 },
+    "liquidity": { "usd": 836117.92, "base": 472576, "quote": 418058 },
+    "fdv": 176927591,
+    "pairCreatedAt": 1679482913000
+  }
+}

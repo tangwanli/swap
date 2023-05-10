@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0.0",
+  "pairs": [
+    {
+      "chainId": "bsc",
+      "dexId": "apeswap",
+      "url": "https://dexscreener.com/bsc/0x867eb519b05d9c4798b2ede0b11197274dfdfcc0",
+      "pairAddress": "0x867EB519b05d9C4798B2EdE0B11197274dfDFcC0",
+      "baseToken": { "address": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8", "name": "Stader", "symbol": "SD" },
+      "quoteToken": { "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", "name": "BUSD Token", "symbol": "BUSD" },
+      "priceNative": "1.4208",
+      "priceUsd": "1.42",
+      "txns": {
+        "h1": { "buys": 0, "sells": 3 },
+        "h24": { "buys": 15, "sells": 37 },
+        "h6": { "buys": 0, "sells": 7 },
+        "m5": { "buys": 0, "sells": 0 }
+      },
+      "volume": { "h24": 4283.92, "h6": 143.83, "h1": 66.34, "m5": 0 },
+      "priceChange": { "h1": -0.3, "h24": -3.62, "h6": -0.65, "m5": 0 },
+      "liquidity": { "usd": 88509.21, "base": 31147, "quote": 44254 },
+      "fdv": 471059,
+      "pairCreatedAt": 1660581961000
+    },
+    {
+      "chainId": "bsc",
+      "dexId": "thena",
+      "url": "https://dexscreener.com/bsc/0x9698e0c7af13b6cef8017a5c34eb2b3d053c491c",
+      "pairAddress": "0x9698e0c7af13B6cEF8017A5c34eb2B3d053C491C",
+      "baseToken": { "address": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8", "name": "Stader", "symbol": "SD" },
+      "quoteToken": {
+        "address": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
+        "name": "Liquid Staking BNB",
+        "symbol": "BNBx"
+      },
+      "priceNative": "0.004099",
+      "priceUsd": "1.44",
+      "txns": {
+        "h1": { "buys": 1, "sells": 1 },
+        "h24": { "buys": 2, "sells": 16 },
+        "h6": { "buys": 2, "sells": 4 },
+        "m5": { "buys": 0, "sells": 0 }
+      },
+      "volume": { "h24": 918.03, "h6": 238.08, "h1": 68.02, "m5": 0 },
+      "priceChange": { "h1": 0.1, "h24": -2.91, "h6": -0.08, "m5": 0 },
+      "liquidity": { "usd": 81340.53, "base": 28206, "quote": 115.6215 },
+      "fdv": 478034,
+      "pairCreatedAt": 1674033006000
+    },
+    {
+      "chainId": "bsc",
+      "dexId": "pancakeswap",
+      "url": "https://dexscreener.com/bsc/0xfd05c106e336bc5696686f422a35ee7a136e1c89",
+      "pairAddress": "0xfD05C106E336bc5696686F422A35EE7a136E1C89",
+      "labels": ["v2"],
+      "baseToken": { "address": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8", "name": "Stader", "symbol": "SD" },
+      "quoteToken": {
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "name": "Wrapped BNB",
+        "symbol": "WBNB"
+      },
+      "priceNative": "0.004217",
+      "priceUsd": "1.40",
+      "txns": {
+        "h1": { "buys": 0, "sells": 0 },
+        "h24": { "buys": 15, "sells": 29 },
+        "h6": { "buys": 4, "sells": 7 },
+        "m5": { "buys": 0, "sells": 0 }
+      },
+      "volume": { "h24": 564.94, "h6": 161.44, "h1": 0, "m5": 0 },
+      "priceChange": { "h1": 0, "h24": -4.84, "h6": -1.97, "m5": 0 },
+      "liquidity": { "usd": 1417.76, "base": 503.03129, "quote": 2.1217 },
+      "fdv": 467213,
+      "pairCreatedAt": 1660581976000
+    }
+  ]
+}
